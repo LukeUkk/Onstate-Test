@@ -180,9 +180,9 @@ a:hover:after {
 .FirstHeader {
     margin-top: 60px;
     width: 375px;
-    margin: 10px auto;
     display: table;
     float: none;
+    margin: 10px 0 0 25VW;
 }
 .FirstHeader h1 {
   font-size: 22px;
@@ -193,11 +193,19 @@ a:hover:after {
   margin: 10px auto;
   display: table;
 }
+
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 .HeaderContainer {
     width: 75%;
     margin: 10px auto;
     display: table;
+}
+.FirstHeader {
+    margin-top: 60px;
+    width: 375px;
+    margin: 10px auto;
+    display: table;
+    float: none;
 }
 }

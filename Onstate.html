@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Onstate</title>
+<link rel="stylesheet" type ="text/css" href ="fonts/inter.css" />
+<!-- Responsive css -->
+<link rel="stylesheet" type ="text/css" href ="minified/col.css" />
+<link rel="stylesheet" type ="text/css" href ="minified/2cols.css" />
+<link rel="stylesheet" type ="text/css" href ="minified/styles.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="HeaderContainer">
+  <div class="Navbar">
+    <div class="title">
+        <img src="logo.svg" alt="Onstate Logo">
+    </div>
+    <div class="number">
+        <a href="tel:+44 113 386 0020">+44 (0)113 386 0020</a>
+    </div>
+    <div class="topnav">
+        <span class="IconMenu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="BodyContainer">
+  <div class="Img-Header">
+    <!-- Normally i would base64 encode the image, but I thought it would be better to just mention this, because if i encoded the image it would break the readability of the code -->
+    <img class="MainImg" src="assets/1600x530.jpg" alt="Header Image">
+    <img class="ResponsiveImg" src="assets/375x530.jpg" alt="Header Image">
+  </div>
+  <div class="Aside-List">
+    <ul>
+      <li><a href="#">Shopify</a></li>
+      <li><a href="#">Design & UX</a></li>
+      <li><a href="#">Build</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Branding</a></li>
+      <li><a href="#">Art Direction</a></li>
+    </ul>
+  </div>
+  <div class="FirstHeader">
+    <h1>Baudoin & Lange</h1>
+    <h1 class="SecondHeader">Taking an artisan shoemaker to the next level in their digital journey</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>
